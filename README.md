@@ -11,7 +11,7 @@ A API da Biblioteca oferece as seguintes funcionalidades:
 
 2. **Exibir um Livro Específico:** Com esta funcionalidade, você pode recuperar informações detalhadas sobre um livro específico. Basta fornecer o ID do livro desejado.
 
-3. **Cadastro de um Novo Livro:** Utilize esta rota para cadastrar um novo livro na biblioteca. Os detalhes do livro, como título, autor, gênero, etc., podem ser fornecidos para a criação do registro.
+3. **Cadastro de um Novo Livro:** Utilize esta rota para cadastrar um novo livro na biblioteca. 
 
 4. **Alteração de um Livro:** Caso as informações de um livro precisem ser atualizadas, esta funcionalidade permite fazer modificações nos detalhes do livro com base no seu ID.
 
@@ -19,11 +19,11 @@ A API da Biblioteca oferece as seguintes funcionalidades:
 
 ## Endpoints da API
 
-- `GET /livros`: Retorna a lista de todos os livros.
-- `GET /livros/{id}`: Retorna informações detalhadas sobre um livro específico com base no ID.
-- `POST /livros`: Cadastra um novo livro na biblioteca.
-- `PUT /livros/{id}`: Atualiza as informações de um livro específico com base no ID.
-- `DELETE /livros/{id}`: Remove um livro da biblioteca com base no ID.
+- `GET /books Retorna a lista de todos os livros.
+- `GET /books/{id}`: Retorna informações detalhadas sobre um livro específico com base no ID.
+- `POST /books`: Cadastra um novo livro na biblioteca.
+- `PUT /books/{id}`: Atualiza as informações de um livro específico com base no ID.
+- `DELETE /books/{id}`: Remove um livro da biblioteca com base no ID.
 
 ## Contribuições
 
