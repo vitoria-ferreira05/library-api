@@ -16,6 +16,33 @@ A API da Biblioteca oferece as seguintes funcionalidades:
 4. **Alteração de um Livro:** Caso as informações de um livro precisem ser atualizadas, esta funcionalidade permite fazer modificações nos detalhes do livro com base no seu ID.
 
 5. **Deleção de um Livro:** Se um livro não for mais necessário na biblioteca, a API oferece uma rota para remover o livro com base no seu ID.
+   
+## Como Usar
+
+### Pré-requisitos
+
+Certifique-se de ter o Docker e o Docker Compose instalados no seu sistema.
+
+### Passos para Executar a API
+
+1. Clone este repositório para o seu sistema.
+
+2. Navegue até o diretório do projeto:
+
+3. Execute o seguinte comando para construir e executar a aplicação: docker-compose up
+
+Isso criará e executará os contêineres necessários para a aplicação.
+
+4. Aguarde até que todos os contêineres estejam em execução. Você verá os logs no terminal indicando que a aplicação está pronta.
+
+5. Acesse a API em `http://localhost:8080`.
+
+6. Você pode usar ferramentas como o Postman ou o cURL para fazer requisições para a API.
+
+### Encerrando a Execução
+
+Quando você terminar de usar a API, você pode parar os contêineres executando o seguinte comando: docker-compose stop
+
 
 ## Endpoints da API
 
